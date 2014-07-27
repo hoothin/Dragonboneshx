@@ -7,7 +7,7 @@ fork from https://github.com/jalbanesi/openfl-dragonbones
 
 Usage:
 
-```Haxe
+```
 haxelib git dragonbones https://github.com/hoothin/dragonboneshx
 ```
 

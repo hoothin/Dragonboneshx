@@ -51,9 +51,9 @@ class ArmatureManager extends BaseFactory
 		
 	}
 	
-	public function parseTexture(textureXmlPath: String, textureImgPath: String, name: String = null): Void
+	public function parseTexture(textureXml: String, textureImg: BitmapData, name: String = null): Void
 	{
-		var atlas: NMETextureAtlas = new NMETextureAtlas(textureImgPath, textureXmlPath);
+		var atlas: NMETextureAtlas = new NMETextureAtlas(textureImg, textureXml);
 		
 		_textureAtlasDic.set(name != null ? name : atlas.name, atlas);
 		_currentTextureAtlas = atlas;
