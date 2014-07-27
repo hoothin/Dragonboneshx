@@ -9,6 +9,7 @@ package dragonbones;
 
 import dragonbones.animation.Animation;
 import dragonbones.animation.IAnimatable;
+import dragonbones.animation.WorldClock;
 import dragonbones.events.ArmatureEvent;
 import openfl.display.DisplayObject;
 import openfl.display.Graphics;
