@@ -1,7 +1,7 @@
 dragonboneshx
 ==================
 
-This is a HaXe3+openfl port of the DragonBones (http://dragonbones.github.io/index.html)
+This is a HaXe3+openfl port of the DragonBones 2.2 (http://dragonbones.github.io/index.html)
 
 fork from https://github.com/jalbanesi/openfl-dragonbones
 
