@@ -201,6 +201,10 @@ class Armature extends EventDispatcher implements IAnimatable
 		{
 			_colorTransform = null;
 		}
+		WorldClock.clock.remove(this);
+		if(this.display.parent != null){
+			this.display.parent.removeChild(this.display);
+		}
 	}
 	
 
